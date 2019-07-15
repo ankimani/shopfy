@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
-import {deletePost} from './actions/deletePosts'
+//import deletePost from './actions/deletePosts'
 class Post extends Component {
     handleClick=()=>{
         this.props.deletePost(this.props.posts.id);
@@ -46,10 +46,5 @@ const mapStateToProps = (state, ownProps) => {
         })
     }
 }
-const mapDispatchToProps=(dispatch)=>{
-return{
-    deletePost:(id)=>{dispatch(deletePost)
-}
-}
-}
-export default connect(mapStateToProps,mapDispatchToProps)(Post)
+
+export default connect(mapStateToProps)(Post)
