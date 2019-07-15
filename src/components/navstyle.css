@@ -1,0 +1,52 @@
+ul li{
+text-align: center;
+
+}
+ul li a:hover{
+    background: orange;
+}
+.navbar-brand{
+    color:forestgreen !important;
+    font-size: 30px;
+    font-weight: bold;
+}
+ul li .nav-items{
+    font-size: 20px; 
+    ;
+}
+form{
+padding: 10px;
+margin:10px;
+}
+form h3{
+    color:blue;
+    font-size: 28px;
+    }
+    #signin a{
+        text-decoration: none;
+    }
+    .post h3{
+            color:cornflowerblue;
+            text-transform: capitalize;
+    }
+    .post p{
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    }.post{
+        margin-top:30px;
+    }
+    #link{
+        text-decoration: none;
+    }
+    .post hr{
+        color:#FFFFFF;
+        font-weight: bold;
+    }
+    .singlepost{
+        margin-top:20px;
+    }
+    .singlepost h3{
+        color:cornflowerblue;
+        text-transform: capitalize;
+       
+    }
